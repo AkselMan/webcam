@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>
+        Aksel Control Panel
+    </title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <body>
+        <div class="main">
+            <h1>control panel</h1>
+            <div class="cam">
+                <img src="{{ url_for('video_feed') }}">
+                <p>{{ date_time }}</p>
+            </div>
+        </div>
+    </body>
+</head>
+</html>
